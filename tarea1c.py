@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 def primo(num):
 	"""
 	Verifica que un numero sea primo o no

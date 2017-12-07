@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 def contra(n1,n2,n3):
 	"""
 	Crea una contraseña con m minusculas, n mayusculas y j digitos de forma recursiva
@@ -26,5 +28,7 @@ def contra(n1,n2,n3):
 	if n2 > 0:
 		return str(choice(['A','B','C','D','E','F','G','H','I','J'])) + str(contra(n1,n2-1,n3))
 	
-
-print contra(3,4,2)
+minus=raw_input("Ingrese el numero de minusculas\n")
+mayus=raw_input("Ingrese el numero de mayusculas\n")
+numer=raw_input("Ingrese el numero de digitos\n")
+print contra(int(minus),int(mayus),int(numer))

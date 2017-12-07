@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 def palindromo(nombre):
     """
     Verifica que una cadena sea igual a su inversa
