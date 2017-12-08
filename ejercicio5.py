@@ -7,7 +7,7 @@ op_interna = ['quintero','fernando','yeudiel']
 incidentes = ['demian','anduin','diana','victor','vacante']
 auditorias = ['juan','fernando','oscar','daniel','gonzalo','cristian','jorge','virgilio']
 
-print map(lambda x:x.upper(),filter(lambda nombre:'i' in nombre,(lambda a,b,c,d:a+b+c+d)(sistemas,op_interna,incidentes,auditorias)))
+print (lambda li: ','.join(li))(map(lambda x:x.upper(),filter(lambda nombre:'i' in nombre,(lambda a,b,c,d:a+b+c+d)(sistemas,op_interna,incidentes,auditorias))))
 
 #expresion funcional:
 # 1) funcion lambda que sume las cuatro listas
