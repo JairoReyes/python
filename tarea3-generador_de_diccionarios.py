@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #Se necesita el archivo datos.txt para poder jalar los datos!!!!!!!!!
+#JAIRO REYES, GERARDO CORONA
 from random import choice
 lista2=[]
 
