@@ -71,3 +71,4 @@ f1.close()
 f2 = open('pass.txt','w')
 for valor in lista2:
 	f2.write(valor+'\n')
+f2.close()
