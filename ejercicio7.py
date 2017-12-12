@@ -41,13 +41,16 @@ def buildURL(server,port, protocol = 'http'):
 
 def makeRequest(host, user, password):
     try:
-	response = get(host, auth=(user,password))
-	#print response
-	#print dir(response)
-	if response.status_code == 200:
-	    print 'CREDENCIALES ENCONTRADAS!: %s\t%s' % (user,password)
-	else:
-	    print 'NO FUNCIONO :c '
+    	response = get(host, auth=(user,password))
+    	#print response
+    	#print dir(response)
+    	if response.status_code == 200:
+    	    print 'CREDENCIALES ENCONTRADAS!: %s\t%s' % (user,password)
+            archivo=open('archivo.txt','w')
+            archivo.write(user+','+password)
+            archivo.close()
+    	else:
+    	    print 'NO FUNCIONO :c '
     except ConnectionError:
         printError('Error en la conexion, tal vez el servidor no esta arriba.',True)
 
