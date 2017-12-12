@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #UNAM-CERT
 #se necesitan los 2 archivos para ver su ejecucion, uno que contenga a los usuarios(usuarios.txt) y otro a las contraseñas(contra.txt)
+#el comando que se utilizo para correrlo es 'python ejercicio7.py -p 9889 -s 87.118.110.170 -U usuarios.txt -P contra.txt'
 import sys
 import optparse
 from requests import get
