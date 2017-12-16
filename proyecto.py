@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 #UNAM-CERT
 #servidor a atacar www.ingenieria.unam.mx
-
+#CORONA GERARDO, REYES JAIRO
+#python proyecto.py -s www.ingenieria.unam.mx ++++banderas
 
 import sys
 import optparse
