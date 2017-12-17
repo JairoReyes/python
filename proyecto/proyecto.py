@@ -4,6 +4,8 @@
 #servidor a atacar www.ingenieria.unam.mx
 #CORONA GERARDO, REYES JAIRO
 #python proyecto.py -s www.ingenieria.unam.mx ++++banderas
+#El archivo de configuracion se llama config.txt
+#el archivo para encontrar archivos sensibles es archivo.txt o archivos2.txt
 
 import sys
 import optparse
